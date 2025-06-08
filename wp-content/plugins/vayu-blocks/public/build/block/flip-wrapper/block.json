@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/flip-wrapper",
+  "version": "0.2.0",
+  "title": "Wrapper",
+  "category": "vayu-blocks",
+  "description": "Design dynamic flip wrappers with animated hover effects, where front images come to life with smooth transitions and fully customizable overlay animations.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "inserter": false
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}

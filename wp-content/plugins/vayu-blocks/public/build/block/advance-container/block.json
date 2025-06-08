@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-container",
+  "version": "0.1.0",
+  "title": "Advance Container",
+  "category": "vayu-blocks",
+  "description": "Example block scaffolded with Create Block tool.",
+  "keywords": [
+    "container",
+    "column",
+    "flex",
+    "advance container"
+  ],
+  "textdomain": "vayu-blocks",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "containerHTMLTag": {
+      "type": "string",
+      "default": "div"
+    },
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "verticalAlign": {
+      "type": "string"
+    },
+    "variationSelected": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

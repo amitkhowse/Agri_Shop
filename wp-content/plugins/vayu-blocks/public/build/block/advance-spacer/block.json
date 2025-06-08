@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-spacer",
+  "version": "0.1.0",
+  "title": "Advance Spacer",
+  "category": "vayu-blocks",
+  "keywords": [
+    " spacer",
+    "advance spacer"
+  ],
+  "description": "A block to add customizable space between other blocks.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "vayu-blocks",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "widthType": {
+      "type": "string",
+      "default": "none"
+    },
+    "displayType": {
+      "type": "string"
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "Desktop": "50px",
+        "Tablet": {},
+        "Mobile": {}
+      }
+    },
+    "customWidth": {
+      "type": "object",
+      "default": {
+        "Desktop": "650px",
+        "Tablet": {},
+        "Mobile": {}
+      }
+    }
+  }
+}

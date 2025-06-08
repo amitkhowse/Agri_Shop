@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/video",
+  "version": "0.2.0",
+  "title": "Advance Video",
+  "category": "vayu-blocks",
+  "keywords": [
+    "video",
+    "youtube",
+    "media",
+    "embed",
+    "advance video",
+    "vimeo"
+  ],
+  "description": "A block to embed and display videos from various sources, like Media, and YouTube, directly on your website.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}

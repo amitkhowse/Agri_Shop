@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vayu-blocks/image-hotspot",
+  "title": "Image Hotspot",
+  "category": "vayu-blocks",
+  "keywords": [
+    "Image hotspot",
+    "image hotspot",
+    "image pin",
+    "pointer",
+    "pin image",
+    "hostspot",
+    "image pointer"
+  ],
+  "description": "A block to highlight specific parts of an image using pins.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    }
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/swipe-slider",
+  "version": "0.2.0",
+  "title": "Swipe Slider",
+  "category": "vayu-blocks",
+  "keywords": [
+    "carousel",
+    "swipe"
+  ],
+  "description": " A block to showcase images or content in a sliding carousel.",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "className": true,
+    "interactivity": true
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello Marquee Block"
+    }
+  },
+  "providesContext": {
+    "swipeslideWidth": "swipeslideWidth",
+    "swipeslideWidthTablet": "swipeslideWidthTablet",
+    "swipeslideWidthMobile": "swipeslideWidthMobile",
+    "swipeslideWidthUnit": "swipeslideWidthUnit",
+    "swipeslideGap": "swipeslideGap",
+    "swipeslideGapTablet": "swipeslideGapTablet",
+    "swipeslideGapMobile": "swipeslideGapMobile",
+    "swipeslideGapUnit": "swipeslideGapUnit"
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "textdomain": "vayu-blocks",
+  "viewScriptModule": "file:./view.js"
+}

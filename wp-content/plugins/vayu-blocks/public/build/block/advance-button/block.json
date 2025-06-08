@@ -1,0 +1,277 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-button",
+  "version": "0.1.0",
+  "title": "Advance Button",
+  "category": "vayu-blocks",
+  "keywords": [
+    "button",
+    "advance button"
+  ],
+  "description": "A block to create interactive and visually appealing call-to-action buttons.",
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueID": {
+      "type": "string"
+    },
+    "tag": {
+      "default": "h2",
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    },
+    "linkTarget": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "source": "text",
+      "selector": "h1,h2,h3,h4,h5,h6,div,p,span",
+      "default": "Read"
+    },
+    "post": {
+      "type": "object"
+    },
+    "hasIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "before"
+    },
+    "widthType": {
+      "type": "string",
+      "default": "none"
+    },
+    "customWidth": {
+      "type": "number"
+    },
+    "customWidthUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "customWidthTablet": {
+      "type": "number"
+    },
+    "customWidthMobile": {
+      "type": "number"
+    },
+    "fontFamily": {
+      "type": "string"
+    },
+    "fontVariant": {
+      "type": "string"
+    },
+    "fontStyle": {
+      "type": "string"
+    },
+    "textTransform": {
+      "type": "string"
+    },
+    "lineHeightUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "lineHeight": {
+      "type": "number"
+    },
+    "lineHeightTablet": {
+      "type": "number"
+    },
+    "lineHeightMobile": {
+      "type": "number"
+    },
+    "letterSpacingUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "letterSpacing": {
+      "type": "number"
+    },
+    "letterSpacingTablet": {
+      "type": "number"
+    },
+    "letterSpacingMobile": {
+      "type": "number"
+    },
+    "fontSizeUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "fontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "fontSizeTablet": {
+      "type": "number"
+    },
+    "fontSizeMobile": {
+      "type": "number"
+    },
+    "icon": {
+      "type": "string",
+      "default": ""
+    },
+    "iconName": {
+      "type": "string",
+      "default": "wordpress-arrowLeft"
+    },
+    "iconToggle": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconAnimation": {
+      "type": "string",
+      "default": "none"
+    },
+    "backgroundeffect": {
+      "type": "string",
+      "default": "always"
+    },
+    "backgroundsettings": {
+      "type": "string",
+      "default": "always"
+    },
+    "rangeUnitcontorltest": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "rangecontrol": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnBackground": {
+      "type": "object",
+      "default": {
+        "type": "",
+        "color": "#ff6912",
+        "image": {
+          "url": ""
+        },
+        "gradient": "linear-gradient(135deg,#0F2027 0%, #203A43 0%, #2c5364 100%)"
+      }
+    },
+    "btnBackgroundHover": {
+      "type": "object",
+      "default": {
+        "type": "",
+        "color": "",
+        "image": {
+          "url": ""
+        },
+        "gradient": "linear-gradient(135deg,#0F2027 0%, #203A43 0%, #2c5364 100%)"
+      }
+    },
+    "btnDropShadow": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnBorder": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnBorderRadius": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnDropShadowHover": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnBorderHover": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "btnBorderRadiusHover": {
+      "type": "object",
+      "Desktop": {},
+      "Tablet": {},
+      "Mobile": {}
+    },
+    "color": {
+      "type": "string",
+      "default": "#FFF"
+    },
+    "hoverColor": {
+      "type": "string",
+      "default": "#FFF"
+    },
+    "typography": {
+      "type": "object"
+    },
+    "btnPadding": {
+      "type": "object",
+      "default": {
+        "Desktop": {
+          "top": "12px",
+          "right": "18px",
+          "bottom": "12px",
+          "left": "18px"
+        },
+        "Tablet": {
+          "top": "12",
+          "right": "18",
+          "bottom": "12",
+          "left": "18"
+        },
+        "Mobile": {
+          "top": "12",
+          "right": "18",
+          "bottom": "12",
+          "left": "18"
+        }
+      }
+    },
+    "iconSpacing": {
+      "type": "string",
+      "default": "12px"
+    },
+    "alignment": {
+      "type": "object",
+      "default": {
+        "Desktop": "left",
+        "Tablet": "left",
+        "Mobile": "left"
+      }
+    },
+    "animationData": {
+      "type": "object",
+      "default": {
+        "background": {
+          "value": "none",
+          "type": "onhvr"
+        }
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/post-grid",
+  "version": "0.2.0",
+  "title": "Post Grid",
+  "category": "vayu-blocks",
+  "keywords": [
+    "post grid",
+    "post",
+    "blog",
+    "grid post"
+  ],
+  "description": "A block to display blog posts in an organized grid layout.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "textdomain": "vayu-blocks",
+  "viewScriptModule": "file:./view.js"
+}

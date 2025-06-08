@@ -1,0 +1,35 @@
+.slider-top::after,
+.thunk-service::after,
+.th-call-ribbon::after,
+.portfolio-mywork-section::after,
+#team-info::after,
+.testimonials::after,
+#th-woocommerce::after,
+#new-letter::after,
+#latest-post::after{
+    position: absolute;
+    z-index: 100;
+    top: 10px;
+    right:10px;
+    bottom: 10px;
+    left:10px;
+    border: 2px dotted rgba(121, 121, 121, 0.22);
+    content: " ";
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.slider-top:hover:after,
+.thunk-service:hover:after,
+.th-call-ribbon:hover:after,
+.portfolio-mywork-section:hover:after,
+#team-info:hover:after,
+.testimonials:hover:after,
+#th-woocommerce:hover:after,
+#new-letter:hover:after,
+#latest-post:hover:after{
+border: 2px dotted #0085ba;
+}
+.portfoliolite-section.customize-partial-edit-shortcut{
+    left:25px;
+}

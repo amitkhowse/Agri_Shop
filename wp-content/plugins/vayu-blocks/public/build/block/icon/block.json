@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vayu-blocks/icon",
+  "version": "0.2.0",
+  "title": "Icon",
+  "category": "vayu-blocks",
+  "keywords": [
+    "icons",
+    "svg",
+    "advance icon",
+    "custom svg"
+  ],
+  "description": "A block to insert icons for visual enhancement and branding.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "title": "Slider Block"
+    }
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}

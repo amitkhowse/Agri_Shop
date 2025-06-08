@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/pin",
+  "version": "0.2.0",
+  "title": "Pin",
+  "parent": [
+    "vayu-blocks/image-hotspot",
+    "vayu-blocks/image"
+  ],
+  "category": "vayu-blocks",
+  "description": "The Pin block supports drag-and-drop, allowing users to easily select, drag, and place pins onto a image.",
+  "supports": {
+    "reusable": true,
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "layout": false,
+    "multiple": true
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "x": {
+      "type": "number",
+      "default": 50
+    },
+    "y": {
+      "type": "number",
+      "default": 50
+    },
+    "tooltipDisplay": {
+      "type": "string",
+      "default": "onHover"
+    },
+    "animation": {
+      "type": "string",
+      "default": "none"
+    },
+    "triangleArrowColor": {
+      "type": "string"
+    }
+  }
+}

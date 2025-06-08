@@ -1,0 +1,28 @@
+.thunk-products-section::after,
+.thunk-slider-section::after,
+.thunk-ribbon::after,
+.thunk-category-section::after,
+.thunk-sortby::after,
+.thunk-instafeed::after{
+    position: absolute;
+    z-index: 100;
+    top: 20px;
+    right: 10px;
+    bottom: 20px;
+    left: 10px;
+    border: 2px dotted rgba(121, 121, 121, 0.22);
+    content: " ";
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.thunk-products-section:hover:after,.thunk-slider-section:hover:after,
+.thunk-ribbon:hover:after,
+.thunk-category-section:hover:after,
+.thunk-sortby:hover:after,
+.thunk-instafeed:hover:after{
+border: 2px dotted #0085ba;
+}
+.almaira-focus-section.customize-partial-edit-shortcut{
+    left:25px;
+}

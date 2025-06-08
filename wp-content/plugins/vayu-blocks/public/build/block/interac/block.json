@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/interac",
+  "version": "0.2.0",
+  "title": "Interactive",
+  "category": "vayu-blocks",
+  "description": "A custom image flip block with animated overlays that appear on hover. Supports flip animations and  customizable overlays.",
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js",
+  "textdomain": "vayu-blocks"
+}

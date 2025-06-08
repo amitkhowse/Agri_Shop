@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 510 510">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f7f7f7;
+        stroke-width: 35.68px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #f7f7f7;
+      }
+
+
+      .cls-3 {
+        font-size: 347.65px;
+        text-anchor: middle;
+        font-family: "Bangla MN";
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="249.5" cy="273.75" r="222.5"/>
+  <ellipse class="cls-2" cx="447" cy="91" rx="25" ry="23"/>
+  <ellipse id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-2" cx="386" cy="39" rx="25" ry="23"/>
+  <ellipse id="Ellipse_2_copy_2" data-name="Ellipse 2 copy 2" class="cls-2" cx="458" cy="28" rx="25" ry="23"/>
+  <text id="A" class="cls-3" transform="matrix(0.825, 0, 0, 0.825, 223.042, 387.08)"><tspan x="0">A</tspan></text>
+  <text id="i" class="cls-3" transform="matrix(0.825, 0, 0, 0.825, 333.428, 387.022)"><tspan x="0">i</tspan></text>
+</svg>

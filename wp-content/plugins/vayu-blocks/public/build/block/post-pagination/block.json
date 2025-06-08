@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vayu-blocks/post-pagination",
+  "title": "Post Pagination",
+  "category": "vayu-blocks",
+  "ancestor": [
+    "vayu-blocks/advance-query-loop"
+  ],
+  "description": "Displays a paginated navigation to next/previous set of posts, when applicable.",
+  "textdomain": "vayu-blocks",
+  "attributes": {
+    "paginationType": {
+      "type": "string",
+      "default": "loadmorebtn"
+    },
+    "loadMoreText": {
+      "type": "string",
+      "default": "loading..."
+    },
+    "noMorePostText": {
+      "type": "string",
+      "default": "no more post"
+    },
+    "loadMoreBtnText": {
+      "type": "string",
+      "default": "Load More"
+    },
+    "showLabel": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "usesContext": [
+    "queryId",
+    "query"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "interactivity": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js"
+}

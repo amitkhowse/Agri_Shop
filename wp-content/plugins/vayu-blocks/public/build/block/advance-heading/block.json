@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-heading",
+  "version": "0.1.0",
+  "title": "Advance Heading",
+  "category": "vayu-blocks",
+  "description": "A block to add styled headings for better content hierarchy with dynamic content.",
+  "keywords": [
+    "heading",
+    "title",
+    "advanced heading",
+    "dynamic heading"
+  ],
+  "textdomain": "vayu-blocks",
+  "usesContext": [
+    "postId",
+    "postType",
+    "queryId"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "h1,h2,h3,h4,h5,h6,div,p,span",
+      "default": ""
+    },
+    "tag": {
+      "default": "h2",
+      "type": "string"
+    }
+  }
+}

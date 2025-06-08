@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/advance-slider",
+  "version": "0.2.0",
+  "title": "Slider",
+  "category": "vayu-blocks",
+  "keywords": [
+    "carousel",
+    "slideshow",
+    "slider",
+    "advance slider"
+  ],
+  "description": " A block to showcase images or content in a sliding carousel.",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "className": true
+  },
+  "example": {
+    "attributes": {
+      "title": "Hello GutSlider Block"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "textdomain": "vayu-blocks",
+  "viewScriptModule": "file:./view.js"
+}

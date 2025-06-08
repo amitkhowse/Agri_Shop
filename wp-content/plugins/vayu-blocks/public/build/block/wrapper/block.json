@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "vayu-blocks/wrapper",
+  "version": "0.2.0",
+  "title": "Wrapper",
+  "parent": [
+    "vayu-blocks/advance-query-loop"
+  ],
+  "category": "vayu-blocks",
+  "description": "Create post template wrap",
+  "supports": {
+    "reusable": false,
+    "html": false,
+    "layout": false,
+    "lock": true
+  },
+  "textdomain": "vayu-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "usesContext": [
+    "queryId",
+    "query",
+    "displayLayout",
+    "templateSlug",
+    "previewPostType",
+    "enhancedPagination"
+  ],
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "uniqueId": {
+      "type": "string"
+    },
+    "layoutType": {
+      "type": "string",
+      "default": "default"
+    },
+    "gridColumn": {
+      "type": "number",
+      "default": "3"
+    },
+    "gridColumnTablet": {
+      "type": "number"
+    },
+    "gridColumnMobile": {
+      "type": "number"
+    }
+  }
+}

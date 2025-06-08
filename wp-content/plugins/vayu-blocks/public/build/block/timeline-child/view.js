@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".vayu_blocks-timeline__marker");if(e){const t=e.offsetTop,o=document.querySelector(".vayu-blocks-laytout-7-advance-timeline");o&&o.style.setProperty("--vb-value-top-icon",`${t}px`)}}));
